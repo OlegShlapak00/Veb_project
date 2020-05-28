@@ -1,0 +1,22 @@
+.wrapper{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    padding-right: 10px;
+    color:  white;
+    font-size: 20px;
+}
+.privacyPolisy{
+    padding-left: 10px;
+}

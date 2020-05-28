@@ -1,0 +1,65 @@
+h2{
+    margin-top: 0;
+}
+.image{
+    width: 100%;
+    height: 500px;
+}
+.wrapper{
+    background-color: black;
+    color: #f1f1f1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about__info{
+   width: 50%;
+}
+.wrapper h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.architecture{
+    background-image: url("https://aasarchitecture.com/wp-content/uploads/Museum-for-Argo-by-Not-A-Number-Architects-00.jpg") ;
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+.architecture__text{
+    text-align: center;
+    padding-top: 20px;
+    width: 70%;
+    background-color:rgba(0,0,0,0.3);
+    color: #f1f1f1;
+}
+.about__schedule{
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 4px solid white;
+}
+.schedule__info{
+    list-style: none;
+    margin: 0;
+    font-size: 18px;
+}
+.schedule__main{
+    margin-bottom: 10px;
+}
+.about__info{
+    font-size: 18px;
+}
+.history__info{
+    font-size: 18px;
+}

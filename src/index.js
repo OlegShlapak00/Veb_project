@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter, Route} from "react-router-dom";
+import Main from "./components/Main/Main";
+import Collection from "./components/Colection/Colection";
+import Visits from "./components/Visits/Visits";
+import About from "./components/About/About";
+import NavMenu from "./components/NavMenu/NavMenu";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <NavMenu/>
+      <Route exact path="/" component={Main} />
+      <Route path="/Collection" component={Collection} />
+      <Route path="/Visits" component={Visits} />
+      <Route path="/About" component={About} />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
