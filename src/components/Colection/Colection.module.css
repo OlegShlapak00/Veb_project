@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.title__wrapper{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://myukraine.org.ua/wp-content/uploads/2017/03/batkivshchyna-maty.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    width: 60%;
+    background-color: rgba(253, 245, 236, 0.42);
+    border: 4px solid #4f3921;
+}
+.sub_title{
+    padding-top: 20px;
+}
+.greetengs{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

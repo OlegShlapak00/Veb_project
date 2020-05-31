@@ -23,9 +23,9 @@ class NavMenu extends React.Component {
 				<div className={`${navMenu.vl} ${navMenu.dropdown}`}>
 					<button className={navMenu.btn}>Колекція</button>
 					<div className={navMenu.dropdownContent}>
-						<Link className={navMenu.dropdownLink} to="/">Античні</Link>
-						<Link className={navMenu.dropdownLink} to="/">Середньовічні</Link>
-						<Link className={navMenu.dropdownLink} to="/">Сучасні</Link>
+						<Link className={navMenu.dropdownLink} to="/Collection/Antic/">Античні</Link>
+						<Link className={navMenu.dropdownLink} to="/Collection/MiddleAge">Середньовічні</Link>
+						<Link className={navMenu.dropdownLink} to="/Collection/Modern">Сучасні</Link>
 					</div>
 				</div>
 				<Link className={`${navMenu.vl} ${navMenu.mainLink}`} to="/About">Про нас</Link>

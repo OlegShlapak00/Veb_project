@@ -8,6 +8,8 @@ import Collection from "./components/Colection/Colection";
 import Visits from "./components/Visits/Visits";
 import About from "./components/About/About";
 import NavMenu from "./components/NavMenu/NavMenu";
+import Antic from "./components/Colection/Antic/Antic";
+import MiddleAge from "./components/Colection/MiddleAge/MiddleAge";
 
 ReactDOM.render(
   <React.StrictMode>

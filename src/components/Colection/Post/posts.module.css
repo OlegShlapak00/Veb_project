@@ -1,0 +1,21 @@
+.img {
+
+}
+.postList{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.post{
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    padding-top: 10px;
+}
+.description{
+    padding-top: 10px;
+}

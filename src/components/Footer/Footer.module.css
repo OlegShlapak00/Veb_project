@@ -1,9 +1,10 @@
 .wrapper{
-    height: 50px;
+    border-top: #f1f1f1 2px solid;
+    height: 60px;
     background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding-bottom: 0;
     margin-bottom: 0;
     color: white;
@@ -11,7 +12,8 @@
 .links{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    margin: 1rem;
 }
 .links a{
     padding-right: 10px;
