@@ -27,9 +27,9 @@ const Modern = () => {
 		setCurrentPage(pageNumber);
 		const buttons = document.getElementsByClassName(pagination.button);
 		for (var button of buttons) {
-			button.classList.remove(pagination.active_button);
+			button.style.backgroundColor='black';
 		}
-		e.target.classList.add(pagination.active_button);
+		e.target.style.backgroundColor='red';
 	};
 	return (
 		<div>

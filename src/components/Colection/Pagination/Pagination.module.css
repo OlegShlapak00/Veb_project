@@ -12,7 +12,15 @@
     background-color: black;
     color: white;
     margin: 5px;
+    outline: none;
 }
-.active_button{
+.button:active, .button:focus {
+    outline: none !important;
+}
+.button::-moz-focus-inner {
+    border: 0 !important;
+}
+
+.pagination li:first-child button{
     background-color: red;
 }
