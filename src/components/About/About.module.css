@@ -67,3 +67,7 @@
     padding-bottom: 20px;
     font-size: 50px;
 }
+.info__schedule{
+    padding: 10px;
+    border: white solid 4px;
+}

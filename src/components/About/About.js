@@ -61,7 +61,7 @@ class About extends React.Component{
 						</div>
 						<div className={about.team__person}>
 							<h3 className={about.person__name}>Valentino Alexander</h3>
-							<img className={about.person__photo} src="https://lh3.googleusercontent.com/proxy/WLnSqbJVE0sCF0CrIUPYc_y_ksdAHjycWHH6xpu15QEHtare8XrT4tpvIq6beN5C82GvHmeUKr3cyQCcATRABya4QMkb6atdgX4WC5CShHSo4-fv2MksbY_j02rhkEsM8w" alt=""/>
+							<img className={about.person__photo} src="https://avatars.mds.yandex.net/get-zen_doc/62191/pub_5c1b064f7a772a00aaef1015_5c1b14247a772a00aaef1043/scale_1200" alt=""/>
 							<p className={about.person__position}>Замісник директора</p>
 						</div>
 						<div className={about.team__person}>

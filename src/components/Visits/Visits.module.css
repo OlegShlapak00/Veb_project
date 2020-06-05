@@ -17,9 +17,3 @@ h4{
     padding-left: 25px;
 
 }
-.excursionWrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    padding-bottom: 20px;
-}

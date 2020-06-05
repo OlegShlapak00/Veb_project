@@ -4,11 +4,13 @@
 .postList{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .post{
+    padding: 10px;
     border: 4px solid white;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -18,4 +20,5 @@
 }
 .description{
     padding-top: 10px;
+
 }
