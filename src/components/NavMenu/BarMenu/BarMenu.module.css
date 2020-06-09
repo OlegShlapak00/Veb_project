@@ -1,0 +1,29 @@
+.sideMenu{
+    width: 100vw;
+    height: 100vh;
+    font-weight: 700;
+    background-color: black;
+    color: red;
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: -100vw;
+    transition: 0.7s;
+}
+.activeMenu{
+    left: 0;
+}
+.sideMenu ul{
+    padding-left: 20px;
+}
+.main__Item, .secondary__Item{
+    padding: 5px 0;
+}
+.sideMenu a{
+    text-decoration: none;
+}
+.sideMenu a:hover{
+    color: white;
+}

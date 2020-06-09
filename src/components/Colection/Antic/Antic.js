@@ -24,7 +24,7 @@ const Antic = () => {
 
 	return (
 		<div>
-			<h3 className={antic.title}> У цьму розділі зібрані стародавні історичні пам'ятки </h3>`
+			<h3 className={antic.title}> У цьму розділі зібрані стародавні історичні пам'ятки </h3>
 			<Posts posts={currentPosts}/>
 			<Pagination postPerPage={postPerPage} totalPosts={posts.length} paginate={paginate}/>
 		</div>

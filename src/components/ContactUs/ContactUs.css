@@ -36,19 +36,6 @@ select {
     appearance: none;
 }
 
-/* Remove native arrow on IE */
-select::-ms-expand {
-    display: none;
-}
-
-/*Remove dotted outline from selected option on Firefox*/
-/*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
-/*We use !important to override the color set for the select on line 99*/
-select:-moz-focusring {
-    color: transparent !important;
-    text-shadow: 0 0 0 var(--white);
-}
-
 textarea {
     resize: none;
 }
@@ -73,6 +60,9 @@ body {
 
 /* FORM ELEMENTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form{
+    height: 100vh;
+}
 .my-form h1 {
     margin-bottom: 1.5rem;
 }
@@ -248,6 +238,7 @@ footer span {
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 600px) {
+
     .my-form .grid {
         display: grid;
         grid-gap: 1.5rem;
@@ -279,5 +270,21 @@ footer span {
 
     .my-form input[type="checkbox"]:checked + label::after {
         top: 3px;
+    }
+}
+@media screen and (min-height: 700px) {
+    .my-form{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 700px) {
+    .my-form{
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 600px) {
+    .my-form{
+       height: auto;
     }
 }

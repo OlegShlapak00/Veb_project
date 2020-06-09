@@ -23,3 +23,12 @@
 .privacyPolisy{
     padding-left: 10px;
 }
+@media screen and (max-width: 700px){
+    .wrapper{
+        padding-top: 20px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

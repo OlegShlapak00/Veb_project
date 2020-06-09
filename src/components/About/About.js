@@ -2,7 +2,6 @@ import React from 'react';
 import about from './About.module.css';
 import Footer from "../Footer/Footer";
 import Map from "./Map/Map";
-import main from "../Main/Main.module.css";
 
 class About extends React.Component{
 
@@ -36,7 +35,7 @@ class About extends React.Component{
 					</div>
 				</section>
 				<div className={about.contacts}>
-					<div className={`${about.contacts__contact} ${about.contacrts__mobile}`}>
+					<div className={`${about.contacts__contact} ${about.contacts__mobile}`}>
 						<i className="fa fa-mobile" aria-hidden="true"> </i><br/>
 						<p>Телефони для довідок</p>
 						<ul className={about.telephone}>
@@ -45,7 +44,7 @@ class About extends React.Component{
 							<li>+38(85)291-85-53</li>
 						</ul>
 					</div>
-					<div className={`${about.contacts__contact} ${about.contacrts__email}`}>
+					<div className={`${about.contacts__contact} ${about.contacts__email}`}>
 						<i className="fa fa-envelope-o" aria-hidden="true"> </i>
 						<p>Пошта</p>
 						<p>ypaqegom-3439@yopmail.com</p>

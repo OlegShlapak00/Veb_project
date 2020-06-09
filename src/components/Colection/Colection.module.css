@@ -19,7 +19,7 @@
 }
 .title{
     width: 60%;
-    background-color: rgba(253, 245, 236, 0.42);
+    background-color: rgba(0, 0, 0, 0.7);
     border: 4px solid #4f3921;
 }
 .sub_title{
@@ -31,4 +31,41 @@
 }
 .description{
     padding-top: 20px;
+}
+@media screen and (max-width: 700px){
+    .title__wrapper{
+        height: 60vh;
+    }
+    .title{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px){
+    .description{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    .wrapper{
+        font-size: 0.8em;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .wrapper h1 {
+        font-size: 1.2em;
+    }
+    .wrapper h2 {
+        font-size: 1em;
+    }
+    .wrapper h4 {
+        font-size: 0.8em;
+    }
+    .title__wrapper{
+        height: 80vh;
+
+    }
+    .title{
+        width: 90%;
+
+    }
 }

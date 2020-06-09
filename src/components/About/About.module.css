@@ -71,3 +71,38 @@
     padding: 10px;
     border: white solid 4px;
 }
+@media screen and (max-width: 1250px) {
+    .team{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .team__person{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+   .wrapper{
+       flex-direction: column-reverse;
+       align-items: center;
+   }
+    .wrapper h4{
+        text-align: center;
+    }
+    .mapWrapper{
+        width: 90%;
+        height: 60vh;
+    }
+    .info{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .contacts{
+        flex-direction: column;
+    }
+    .contacts__contact i{
+        padding-bottom: 0;
+    }
+}

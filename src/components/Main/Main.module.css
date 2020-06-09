@@ -62,4 +62,30 @@ h2{
 }
 .history__info{
     font-size: 18px;
+    text-align: center;
+}
+.history__list li{
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__info{
+        width: 100%;
+        text-align: center;
+    }
+    .about__schedule{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .about__schedule{
+        width: 90%;
+    }
+    .architecture__text{
+        padding: 20px;
+        width: 90%;
+    }
 }

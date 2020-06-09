@@ -29,7 +29,7 @@ class Excursion extends React.Component {
 					renderResults={results => (
 						<section className={excursion.listWrapper}>
 							{results.map(el => (
-								<div className={excursion.itemWrapper}>
+								<div key={el.id} className={excursion.itemWrapper}>
 									<h2 className={excursion.name}>{el.Name}</h2>
 									<div className={excursion.info}>
 										<img className={excursion.info__photo} src={el.Image} alt=""/>

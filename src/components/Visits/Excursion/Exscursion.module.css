@@ -49,3 +49,46 @@
     color: red;
     opacity: 1;
 }
+@media screen and (max-width: 1200px){
+    .listWrapper{
+        grid-template-columns: 1fr;
+    }
+    .info{
+        padding-bottom: 30px;
+        width: 60%;
+    }
+    .info__text{
+        font-size: 1.3em;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .info{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .info__text{
+        width: 70%;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .name{
+        padding-bottom: 0;
+    }
+    .info__text{
+        width: 90%;
+        font-size: 1.1em;
+        margin-bottom: 0;
+    }
+    .text{
+        font-size: 0.8em;
+        padding: 0 10px;
+    }
+    .info{
+        padding: 10px;
+    }
+
+}
+
